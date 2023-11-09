@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap");
+
+.readers--flex{
+    margin: 10px 20px;
+    display: flex;
+
+}
+.think--girl{
+    justify-content: center;
+    vertical-align: middle;
+}
+.readers--content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Kanit", sans-serif;
+    font-family: "Signika Negative", sans-serif;
+  }
+.readers--ques{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+  }
+  .confused--reader{
+    font-size: 27px;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+
+  }
+.readers--content--options button{
+    font-family: "Kanit", sans-serif;
+    font-family: "Signika Negative", sans-serif;
+    font-size: 35px;
+}
+.readers--options{
+  display: flex;
+  justify-content: space-around;
+  margin: 37px 0px;
+}
+.btn--surprise {
+    background-color: #456bc8;
+    border: 2px solid #fff;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    height: 55px;
+    width: 500px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+      box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+      color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+  }
+  
+  .btn--surprise:hover,
+  .btn--surprise:focus {
+    background-color: #fff;
+    color: #456bc8;
+    border: 2px solid #456bc8;
+  }
+  
+  .btn--surprise:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, 0.7);
+  }
+  
+  .btn--surprise:disabled {
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, 0.08);
+    color: rgba(0, 0, 0, 0.3);
+  }
+.btn--option {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 130px;
+  width: 250px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.btn--option:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.btn--option:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.btn--option:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
