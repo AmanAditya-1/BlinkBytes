@@ -3,7 +3,8 @@
 
 .btn--homepage {
   align-items: center;
-  background-color: #456bc8;
+  /* background-color: #456bc8; */
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
   border: 2px solid #fff;
   border-radius: 100px;
   box-sizing: border-box;
@@ -37,6 +38,7 @@
   background-color: #fff;
   color: #456bc8;
   border: 2px solid #456bc8;
+  background-image: none;
 }
 
 .btn--homepage:active {

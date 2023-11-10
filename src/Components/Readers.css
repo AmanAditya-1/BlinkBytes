@@ -39,7 +39,8 @@
   margin: 37px 0px;
 }
 .btn--surprise {
-    background-color: #456bc8;
+    /* background-color: #456bc8; */
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
     border: 2px solid #fff;
     border-radius: 100px;
     box-sizing: border-box;
@@ -61,9 +62,6 @@
     padding-right: 20px;
     text-align: center;
     touch-action: manipulation;
-    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
-      box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
-      color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
     user-select: none;
     -webkit-user-select: none;
     vertical-align: middle;
@@ -74,6 +72,7 @@
     background-color: #fff;
     color: #456bc8;
     border: 2px solid #456bc8;
+    background-image: none;
   }
   
   .btn--surprise:active {
