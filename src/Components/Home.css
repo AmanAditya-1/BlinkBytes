@@ -10,10 +10,7 @@
   color: #ffffff;
   cursor: pointer;
   display: inline-flex;
-  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
-    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
-    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
-    "Lucida Grande", Helvetica, Arial, sans-serif;
+  @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap");
   font-size: 16px;
   font-weight: 600;
   justify-content: center;
@@ -55,12 +52,12 @@
 .homeleft {
   display: flex;
   flex-direction: column;
+  margin-left: 20px;
 }
 .myhomepage {
+  width: 100%;
   display: flex;
-  margin: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
+  justify-content: space-between;
 }
 .homepage--elements {
   margin: 0px;
@@ -94,5 +91,8 @@
 }
 .btn--write {
   margin-left: 3%;
+}
+.homepage--image{
+  margin-right: 20px;
 }
 

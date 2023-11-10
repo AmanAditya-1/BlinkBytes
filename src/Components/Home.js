@@ -2,9 +2,6 @@ import "./Home.css";
 import mansitting from '../Assest/man-sitting.png'
 
 function Home() {
-
-
-
   return (
     <div className="myhomepage">
       <div className="homeleft">
@@ -24,7 +21,7 @@ function Home() {
         </div>
       </div>
       <div className="homeright">
-        <img src={mansitting}></img>
+        <img className="homepage--image" src={mansitting}></img>
       </div>
     </div>
   );
