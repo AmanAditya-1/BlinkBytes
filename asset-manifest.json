@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/BlinkBytes/static/css/main.2e268c6a.css",
-    "main.js": "/BlinkBytes/static/js/main.7cfc4de1.js",
+    "main.js": "/BlinkBytes/static/js/main.20613e46.js",
     "static/media/thinking girl.png": "/BlinkBytes/static/media/thinking girl.8a0a703c747cc152625d.png",
     "static/media/man-sitting.png": "/BlinkBytes/static/media/man-sitting.e0212a5103d58e0935e2.png",
     "static/media/logo.png": "/BlinkBytes/static/media/logo.3df0a5ed917ed808a831.png",
     "index.html": "/BlinkBytes/index.html",
     "main.2e268c6a.css.map": "/BlinkBytes/static/css/main.2e268c6a.css.map",
-    "main.7cfc4de1.js.map": "/BlinkBytes/static/js/main.7cfc4de1.js.map"
+    "main.20613e46.js.map": "/BlinkBytes/static/js/main.20613e46.js.map"
   },
   "entrypoints": [
     "static/css/main.2e268c6a.css",
-    "static/js/main.7cfc4de1.js"
+    "static/js/main.20613e46.js"
   ]
 }
